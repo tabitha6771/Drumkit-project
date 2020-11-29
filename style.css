@@ -1,0 +1,290 @@
+/*Funky Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bangers', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(222, 133, 30);
+    margin-left: 20px;
+}
+
+/*Section containing all of the main displays*/
+.mainSection {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+/*Individual box displays*/
+#boom {
+    height: 160px;
+    width: 27%;
+    background-color: #8a2be2;
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-right: 8px;
+}
+#clap {
+    height: 185px;
+    width: 33%;
+    background-color: orangered;
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+#hihat {
+    height: 169px;
+    width: 35%;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+}
+#kick {
+    height: 217px;
+    width: 35%;
+    background-color: rgb(37, 121, 116);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+#openhat {
+    height: 185px;
+    width: 27%;
+    background-color: rgb(226, 198, 43);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-right: 8px;
+}
+#ride {
+    height: 200px;
+    width: 33%;
+    background-color: rgb(226, 43, 83);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+}
+#snare {
+    height: 200px;
+    width: 33%;
+    background-color: rgb(43, 101, 226);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-right: 8px;
+}
+#tink {
+    height: 215px;
+    width: 35%;
+    background-color: rgb(43, 112, 26);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+    margin-right: 8px;
+}
+#tom {
+    height: 178px;
+    width: 27%;
+    background-color: rgb(39, 25, 90);
+    box-sizing: border-box;
+    border: 8px solid #FFFFFF;
+}
+
+
+/*Background Images*/
+#boomImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/23/17/27/music-note-1275180__340.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#clapImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/09/02/12/vinyl-record-4043560__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#hihatImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://webstockreview.net/images/drum-clipart-mridangam-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#kickImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/b/bb/DrumSticks.png/revision/latest?cb=20180918141802");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#openhatImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/05/11/31/drum-3376167__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rideImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/05/11/31/plates-3376166__340.png");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#snareImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/05/11/32/drum-3376172__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#tinkImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/23/20/45/music-note-1275643__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#tomImage {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/05/11/32/drum-3376170__340.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Spinning Effect on Background Images*/
+#boomImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#clapImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#hihatImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#kickImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#openhatImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#rideImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#snareImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#tinkImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+#tomImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/*Header Div Design*/
+.headerDiv {
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 133, 30);
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    margin-bottom: 7px;   
+}
+#boomReference {
+    height: 45px;
+    width: 45px;
+    background-color: #8a2be2;
+    border: 6px solid #FFFFFF;
+    
+}
+#clapReference {
+    height: 45px;
+    width: 45px;
+    background-color: orangered;
+    border: 6px solid #FFFFFF;
+}
+#hihatReference {
+    height: 45px;
+    width: 45px;
+    background-color: greenyellow;
+    border: 6px solid #FFFFFF;
+}
+#kickReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(37, 121, 116);
+    border: 6px solid #FFFFFF;
+}
+#openhatReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(226, 198, 43);
+    border: 6px solid #FFFFFF;
+}
+#rideReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(226, 43, 83);
+    border: 6px solid #FFFFFF;
+}
+#snareReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(43, 101, 226);
+    border: 6px solid #FFFFFF;
+}
+#tinkReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(43, 112, 26);
+    border: 6px solid #FFFFFF;
+}
+#tomReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(39, 25, 90);
+    border: 6px solid #FFFFFF;
+}
