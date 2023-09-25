@@ -22,36 +22,48 @@ body {
     padding: 40px;
 }
 
-#boom, #clap, #hihat, #kick, #openhat, #ride, #snare, #tink, #tom {
+#boom,
+#clap,
+#hihat,
+#kick,
+#openhat,
+#ride,
+#snare,
+#tink,
+#tom {
     width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
     position: relative;
     cursor: pointer;
     transition: box-shadow 0.3s ease;
 }
 
 #boom {
-    background-color: #8a2be2;
+    background-color: #45d0e9;
 }
 
 #clap {
-    background-color: orangered;
+    background-color: rgb(255, 0, 157);
 }
 
 #hihat {
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 47);
 }
 
 #kick {
-    background-color: rgb(37, 121, 116);
+    background-color: rgb(225, 61, 151);
 }
 
 #openhat {
-    background-color: rgb(226, 198, 43);
+    background-color: rgb(226, 43, 52);
 }
 
 #ride {
@@ -67,41 +79,198 @@ body {
 }
 
 #tom {
-    background-color: rgb(39, 25, 90);
+    background-color: rgb(141, 53, 219);
 }
-
-#boomImage, #clapImage, #hihatImage, #kickImage, #openhatImage, #rideImage, #snareImage, #tinkImage, #tomImage {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; /* Ensures the image doesn't repeat within the box */
-    position: absolute;
-}
-
-
 
 #boomImage {
-    background-image: url("https://cdn.pixabay.com/photo/2016/06/06/09/57/clef-1439137_1280.jpg");}
-    #clapImage {
-        background-image: url("https://cdn.pixabay.com/photo/2015/07/09/01/34/wallpapper-837204_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/06/09/57/clef-1439137_1280.jpg");
+}
+
+#clapImage {
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/09/01/34/wallpapper-837204_1280.jpg");
+}
+
+#hihatImage {
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/26/18/17/drums-3109364_1280.jpg");
+}
+
+#kickImage {
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/23/20/47/background-2882485_1280.jpg");
+}
+
+#openhatImage {
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/02/20/31/guitars-2912447_1280.jpg");
+}
+
+#rideImage {
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/04/14/57/background-313583_1280.jpg");
+}
+
+#snareImage {
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/01/09/29/wave-8033273_1280.jpg");
+}
+
+#tinkImage {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/19/18/11/music-3240719_1280.jpg");
+}
+
+#tomImage {
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/11/23/20/musician-3312104_1280.jpg");
+}
+
+#boomReference {
+    height: 45px;
+    width: 45px;
+    background-color: #40ccf3;
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#clapReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(0, 255, 55);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#hihatReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(255, 47, 210);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#kickReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(244, 96, 33);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#openhatReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(226, 43, 49);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#rideReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(171, 43, 226);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#snareReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(67, 43, 226);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#tinkReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(234, 204, 35);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#tomReference {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(19, 245, 136);
+    border: 6px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#boomImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#hihatImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#openhatImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#snareImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#tomImage:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
     }
-    #hihatImage {
-        background-image: url("https://cdn.pixabay.com/photo/2018/01/26/18/17/drums-3109364_1280.jpg");
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
     }
-    #kickImage {
-        background-image: url("https://cdn.pixabay.com/photo/2017/10/23/20/47/background-2882485_1280.jpg");}
-        #openhatImage {
-            background-image: url("https://cdn.pixabay.com/photo/2017/11/02/20/31/guitars-2912447_1280.jpg");
-        }  
-    #rideImage {
-            background-image: url( "https://cdn.pixabay.com/photo/2014/04/04/14/57/background-313583_1280.jpg");} 
-    #snareImage {
-                background-image: url("https://cdn.pixabay.com/photo/2023/06/01/09/29/wave-8033273_1280.jpg");}
-             
-    #tinkImage {
-                    background-image: url("https://cdn.pixabay.com/photo/2018/03/19/18/11/music-3240719_1280.jpg");} 
-    #tomImage {
-                background-image: url("https://cdn.pixabay.com/photo/2018/04/11/23/20/musician-3312104_1280.jpg");}    
-    
-    
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
