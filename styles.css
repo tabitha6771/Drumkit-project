@@ -114,12 +114,20 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2018/04/11/23/20/musician-3312104_1280.jpg");
 }
 
-#boomImage, #clapImage, #hihatImage, #kickImage, #openhatImage, #rideImage, #snareImage, #tinkImage, #tomImage {
+#boomImage,
+#clapImage,
+#hihatImage,
+#kickImage,
+#openhatImage,
+#rideImage,
+#snareImage,
+#tinkImage,
+#tomImage {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Ensures the image doesn't repeat within the box */
+    background-repeat: no-repeat;
     position: absolute;
 }
 
